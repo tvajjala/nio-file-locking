@@ -1,0 +1,9 @@
+
+‚
+java:S1488©"_Immediately return this expression instead of assigning it to the temporary variable "Student".(ïžëçúÿÿÿÿ8¨³Ðôð/
+s	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïžëçúÿÿÿÿ8¨³Ðôð/
+s	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ„¡Ÿùÿÿÿÿ8¨³Ðôð/
+n	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÈ›ª8¨³Ðôð/
+n	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™È·¡8¨³Ðôð/
+U
+java:S3400T"9Remove this method and declare a constant for this value.(Š™¤}8¨³Ðôð/

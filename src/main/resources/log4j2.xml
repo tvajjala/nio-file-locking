@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2019, Oracle and/or its affiliates. All rights reserved.
+  -->
+
+<Configuration status="info" strict="true" name="Storage Validator Logging">
+  <Properties>
+    <!-- Standard log properties -->
+    <Property name="log_level">INFO</Property>
+  </Properties>
+
+  <Appenders>
+    <Appender type="Console" name="DEBUG_LOGGING">
+      <Layout type="PatternLayout">
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</Pattern>
+      </Layout>
+    </Appender>
+  </Appenders>
+
+  <Loggers>
+    <Root level="${log_level}">
+      <AppenderRef ref="DEBUG_LOGGING"/>
+    </Root>
+  </Loggers>
+</Configuration>
